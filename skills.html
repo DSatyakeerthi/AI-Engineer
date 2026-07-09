@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Satya Keerthi Dara AI Engineer portfolio.">
+  <title>Skills | Satya Keerthi Dara</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="inner-page">
+<header class="site-header " data-header>
+  <a class="brand" href="index.html" aria-label="Satya Keerthi Dara home">
+    <span class="brand-dot" aria-hidden="true"></span>
+    <span>Satya Keerthi Dara</span>
+  </a>
+  <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <nav class="main-nav" aria-label="Primary navigation"><a class="" href="index.html">Home</a><a class="" href="experience.html">Experience</a><a class="active" href="skills.html">Skills</a><a class="" href="projects.html">Projects</a><a class="" href="contact.html">Contact</a></nav>
+</header>
+<main class="page-shell">
+  <section class="page-intro reveal">
+    <p class="eyebrow">Skills</p>
+  </section>
+
+  <section class="skill-groups" aria-label="Technical skills">
+    <article class="skill-card reveal">
+      <span class="skill-index">01</span>
+      <h2>AI and LLMs</h2>
+      <p>Build retrieval flows, prompts, and AI-powered features.</p>
+      <div class="skill-tags"><span>LLMs</span><span>RAG</span><span>Prompt Engineering</span><span>LangChain</span><span>OpenAI APIs</span><span>Embeddings</span><span>Vector Search</span><span>Semantic Search</span></div>
+    </article>
+
+    <article class="skill-card reveal">
+      <span class="skill-index">02</span>
+      <h2>Backend and APIs</h2>
+      <p>Build services, API flows, and product logic.</p>
+      <div class="skill-tags"><span>Python</span><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>JavaScript</span><span>TypeScript</span><span>REST APIs</span><span>JSON</span></div>
+    </article>
+
+    <article class="skill-card reveal">
+      <span class="skill-index">03</span>
+      <h2>Data and databases</h2>
+      <p>Store, validate, and move data used by AI and backend services.</p>
+      <div class="skill-tags"><span>PostgreSQL</span><span>Supabase</span><span>MongoDB</span><span>SQL</span><span>Data Pipelines</span><span>Data Validation</span><span>ETL</span></div>
+    </article>
+
+    <article class="skill-card reveal">
+      <span class="skill-index">04</span>
+      <h2>UI, cloud, and tools</h2>
+      <p>Ship, test, debug, and improve working products.</p>
+      <div class="skill-tags"><span>React</span><span>AWS</span><span>Docker</span><span>Render</span><span>Netlify</span><span>Postman</span><span>GitHub</span><span>Debugging</span><span>Logging</span></div>
+    </article>
+  </section>
+
+  <section class="content-section education-section">
+    <div class="section-heading reveal">
+      <p class="eyebrow">Education</p>
+    </div>
+    <div class="education-list">
+      <article class="education-card reveal">
+        <div><p class="degree-type">Master of Science</p><h3>Computer Science</h3><p>Southeast Missouri State University</p></div>
+        <div class="education-meta"><span>Cape Girardeau, Missouri</span><time>Jan 2024 to Dec 2025</time></div>
+      </article>
+      <article class="education-card reveal">
+        <div><p class="degree-type">Bachelor of Technology</p><h3>Computer Science</h3><p>Jawaharlal Nehru Technological University</p></div>
+        <div class="education-meta"><span>Hyderabad, India</span><time>Aug 2018 to May 2022</time></div>
+      </article>
+    </div>
+  </section>
+</main>
+<button id="aiLauncher" class="ai-launcher" type="button" aria-label="Open AI assistant" aria-expanded="false">
+  <span class="ai-pulse" aria-hidden="true"></span><span>AI</span>
+</button>
+<aside id="aiPanel" class="ai-panel" aria-label="Portfolio AI assistant" aria-hidden="true">
+  <div class="ai-head">
+    <div>
+      <span class="eyebrow">Portfolio assistant</span>
+      <h2>Ask Satya AI</h2>
+    </div>
+    <button id="aiClose" class="icon-button" type="button" aria-label="Close AI assistant">×</button>
+  </div>
+  <div id="aiMessages" class="ai-messages" aria-live="polite">
+    <div class="ai-message bot">Hi, ask me about Satya's work, projects, skills, or contact details.</div>
+  </div>
+  <div class="quick-actions" aria-label="Quick questions">
+    <button type="button" data-ai-query="Projects">Projects</button>
+    <button type="button" data-ai-query="Contact">Contact</button>
+    <button type="button" data-ai-query="Experience">Experience</button>
+    <button type="button" data-ai-query="About">About</button>
+  </div>
+  <form id="aiForm" class="ai-form">
+    <input id="aiInput" type="text" autocomplete="off" placeholder="Ask a question..." aria-label="Ask a question">
+    <button type="submit" aria-label="Send question">↗</button>
+  </form>
+</aside>
+<footer class="site-footer">
+  <p>Satya Keerthi Dara, AI Engineer</p>
+  <p>© <span data-year></span></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
